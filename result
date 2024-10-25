@@ -1,0 +1,162 @@
+
+=====
+Running tests for task1
+=====
+
+TEST t1_1.txt PASSED
+TEST t1_2.txt PASSED
+TEST t1_3.txt PASSED
+TEST t1_4.txt PASSED
+TEST t1_5.txt PASSED
+TEST t1_6.txt PASSED
+TEST t1_7.txt PASSED
+TEST t1_8.txt PASSED
+TEST t1_9.txt PASSED
+TEST t1_10.txt PASSED
+TEST t1_11.txt PASSED
+TEST t1_12.txt PASSED
+TEST t1_13.txt PASSED
+TEST t1_14.txt PASSED
+TEST t1_15.txt PASSED
+TEST t1_16.txt PASSED
+TEST t1_17.txt PASSED
+TEST t1_18.txt PASSED
+TEST t1_19.txt PASSED
+TEST t1_20.txt PASSED
+TEST t1_21.txt PASSED
+TEST t1_22.txt PASSED
+TEST t1_23.txt PASSED
+TEST t1_24.txt PASSED
+TEST t1_25.txt PASSED
+TEST t1_26.txt PASSED
+TEST t1_27.txt PASSED
+TEST t1_28.txt PASSED
+TEST t1_29.txt PASSED
+TEST t1_30.txt PASSED
+TEST t1_31.txt PASSED
+TEST t1_32.txt PASSED
+TEST t1_33.txt PASSED
+TEST t1_34.txt PASSED
+TEST t1_35.txt PASSED
+TEST t1_36.txt PASSED
+TEST t1_37.txt PASSED
+TEST t1_38.txt PASSED
+TEST t1_39.txt PASSED
+TEST t1_40.txt PASSED
+TEST t1_41.txt PASSED
+TEST t1_42.txt PASSED
+TEST t1_43.txt PASSED
+TEST t1_44.txt PASSED
+TEST t1_45.txt PASSED
+TEST t1_46.txt PASSED
+TEST t1_47.txt PASSED
+TEST t1_48.txt PASSED
+TEST t1_49.txt PASSED
+TEST t1_50.txt PASSED
+
+=====
+Running tests for task2
+=====
+
+TEST t2_1.txt FAILED
+./run_tests.sh: line 31: 14733 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_2.txt FAILED
+TEST t2_3.txt PASSED
+./run_tests.sh: line 31: 14738 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_4.txt FAILED
+TEST t2_5.txt PASSED
+TEST t2_6.txt FAILED
+TEST t2_7.txt PASSED
+TEST t2_8.txt PASSED
+TEST t2_9.txt PASSED
+TEST t2_10.txt PASSED
+TEST t2_11.txt PASSED
+TEST t2_12.txt PASSED
+TEST t2_13.txt FAILED
+TEST t2_14.txt FAILED
+TEST t2_15.txt FAILED
+TEST t2_16.txt PASSED
+TEST t2_17.txt FAILED
+TEST t2_18.txt FAILED
+./run_tests.sh: line 31: 14769 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_19.txt FAILED
+TEST t2_20.txt FAILED
+TEST t2_21.txt PASSED
+TEST t2_22.txt PASSED
+TEST t2_23.txt PASSED
+TEST t2_24.txt PASSED
+TEST t2_25.txt PASSED
+TEST t2_26.txt PASSED
+TEST t2_27.txt PASSED
+./run_tests.sh: line 31: 14788 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_28.txt FAILED
+./run_tests.sh: line 31: 14791 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_29.txt FAILED
+./run_tests.sh: line 31: 14794 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_30.txt FAILED
+TEST t2_31.txt PASSED
+TEST t2_32.txt PASSED
+TEST t2_33.txt PASSED
+./run_tests.sh: line 31: 14803 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_34.txt FAILED
+./run_tests.sh: line 31: 14806 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_35.txt FAILED
+TEST t2_36.txt PASSED
+TEST t2_37.txt FAILED
+TEST t2_38.txt PASSED
+TEST t2_39.txt PASSED
+TEST t2_40.txt PASSED
+./run_tests.sh: line 31: 14819 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_41.txt FAILED
+TEST t2_42.txt PASSED
+./run_tests.sh: line 31: 14824 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_43.txt FAILED
+TEST t2_44.txt PASSED
+./run_tests.sh: line 31: 14829 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_45.txt FAILED
+./run_tests.sh: line 31: 14832 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_46.txt FAILED
+./run_tests.sh: line 31: 14848 Floating point exception(core dumped) ./${exe} < ${in_file} > ${TESTS_OUT}/$i.out
+TEST t2_47.txt FAILED
+TEST t2_48.txt FAILED
+TEST t2_49.txt PASSED
+TEST t2_50.txt PASSED
+
+=====
+Running tests for task3
+=====
+
+TEST t3_1.txt FAILED
+TEST t3_2.txt FAILED
+TEST t3_3.txt FAILED
+TEST t3_4.txt FAILED
+TEST t3_5.txt FAILED
+
+=====
+Running tests for task4
+=====
+
+TEST t4_1.txt FAILED
+TEST t4_2.txt FAILED
+TEST t4_3.txt FAILED
+TEST t4_4.txt FAILED
+TEST t4_5.txt FAILED
+TOTAL 77
+
+Run cpplint
+
+task2.c:353:  Use int16/int64/etc, rather than the C type short  [runtime/int] [4]
+Done processing task1.c
+Done processing task2.c
+Done processing task3.c
+Done processing task4.c
+Total errors found: 1
+
+Run clang-tidy-12
+
+7 warnings generated.
+15 warnings generated.
+22 warnings generated.
+29 warnings generated.
+Suppressed 29 warnings (29 in non-user code).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
